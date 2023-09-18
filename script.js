@@ -42,3 +42,18 @@ function efectoHabilidades() {
 
 }
 
+/*document.getElementById("whatsappForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    
+    const nombre = encodeURIComponent(document.getElementById("nombre").value);
+    const mensaje = encodeURIComponent(document.getElementById("mensaje").value);
+    const email = encodeURIComponent(document.getElementById("email").value);
+    
+    
+    const numeroWhatsapp = "2616246767";
+    const mensajeWhatsApp = `¡Hola! Soy ${nombre}, mi email es: ${email} y mi mensaje es: ${mensaje}`;
+    
+    const url = `https://api.whatsapp.com/send?phone=${numeroWhatsapp}&text=${mensajeWhatsApp}`;
+    window.location.href = url;
+  });*/
